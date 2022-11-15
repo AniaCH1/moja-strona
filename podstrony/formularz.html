@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            <h2>Formularz zabookowania terminu</h2>
+        </legend>
+        <h3 class="title">Podaj dane osobowe</h3>
+        Imię<br>
+        <input type="text" placeholder="Uzupełnij pole" name="imie" maxlength="30" required=""><br>
+        Nazwisko<br>
+        <input type="text" placeholder="Uzupełnij pole" name="nazwisko" maxlength="50" required=""><br>
+        Mail<br>
+        <input type="text" placeholder="Uzupełnij pole" name="mail" maxlength="40" ><br>
+        Numer telefonu<br>
+        <input type="text" placeholder="Uzupełnij pole" name="telefon" maxlength="20" required=""><br>
+        <label for="tak">Czy korzystał/a Pan/Pani z moich usług wcześniej? Proszę zaznaczyć, jeśli tak.</label>
+            <input type="checkbox" name="wczesniej" id="tak" value="tak"><br>
+            <h3 class="title">Wybierz klasę, do której obecnie uczęszczasz:</h3>
+            <input type="radio" name="klasa" id="klasa4" value="klasa4"><label for="klasa4">Klasa 4</label
+                for="klasa4"><br>
+            <input type="radio" name="klasa" id="klasa5" value="klasa5"><label for="klasa5">Klasa 5</label
+                for="klasa5"><br>
+            <input type="radio" name="klasa" id="klasa6" value="klasa6"><label for="klasa6">Klasa 6</label
+                for="klasa6"><br>
+            <input type="radio" name="klasa" id="klasa7" value="klasa7"><label for="klasa7">Klasa 7</label
+                for="klasa7"><br>
+            <input type="radio" name="klasa" id="klasa8" value="klasa8"><label for="klasa8">Klasa 8</label
+                for="klasa8"><br>
+            <h3 class="title">Uwagi do preferowanego terminu</h3>
+                <textarea name="tresc" placeholder="Uwagi" rows="6" cols="70"></textarea><br>
+                <input type="submit" name="submit" value="wyślij">
+    </fieldset>
+
+</form>
+</body>
+</html>

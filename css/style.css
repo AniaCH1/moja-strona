@@ -126,11 +126,3 @@ footer{
     
 }
 
-@media only screen and (max-width: 1000px) {
-    #aside { display: block; }
-}
-
-
-@media only screen and (max-width: 680px) {
-    #aside { display: none; }
-}

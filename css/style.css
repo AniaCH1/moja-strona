@@ -126,7 +126,7 @@ footer{
     
 }
 @media screen and(max-width: 100px){
-	footer{
+	.footer{
 	background: red;
 	}
 }

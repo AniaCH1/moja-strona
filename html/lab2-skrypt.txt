@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="wstęp">
+    <h1>Matematyka dla każdego!</h1>
+    <i> Jeśli masz trudności z matematyką lub chcesz rozwinąć swoje umiejętności w tej dziedzinie, to chętnie Ci w tym pomogę. </i>
+    </section>
+    <br>
+    <img src="images/mozg.webp" width="200">
+    <br>
+    <a href="#">Strona Główna</a>
+    <a href="podstrony/cennik.html">Cennik</a>
+    <br>
+    <section id="o mnie">
+	<h2>O mnie</h2>
+	<p>Jestem studentką trzeciego roku matemtyki na specjalności Analityk Danych na Politechnice Gdańskiej. Prowadzeniem korepetycji zajmuję się <strong>od 4 lat</strong>. 
+        Interesuję się gotowaniem, książkami i serialami. W czasie zajęć zapewniam miłą i bezstresową atmosferę. Zawsze chętnie służę poocą również poza godzinami pracy. 
+        W przygotowaniach do egzaminów opieram się przede wszystkim na arkuszach z poprzednich lat, które znajdują się na przykład <a href="https://arkusze.pl/" target="_blank">tu</a>. </p>
+    </section>
+<aside>Panel Boczny</aside>
+<footer>Kontakt: tel:+48 111 222 333, email: ach@pp.pl</footer>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="../index.html">Strona Główna</a> 
+    <a href="#">Cennik</a>
+</body>
+</html>
